@@ -1,0 +1,26 @@
+
+.calculadora{
+  background-color: tomato;
+  width: 250px;
+  border: 1px solid gray;
+  text-align: center;
+}
+#text{
+  border: 1px solid black;
+  background-color: white;
+  width: 185px;
+  padding: 0px 5px;
+  text-align: right;
+  position: relative;
+  left: 23px;
+}
+.large{
+  color: red;
+  width: 60px;
+}
+input{
+  color: black;
+  width: 35px;
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calcula tus cuentas</title>
+    <link rel="stylesheet" href="calculadora.css">
+  </head>
+  <body>
+    <div class="calculadora">
+      <form class="calculadora1" method="post" id="calculadora">
+        <p id="text">0</p>
+        <p>
+          <input type="button" value="Rect" class="large" onclick="retro()">
+          <input type="button" value="CE" class="large" onclick="borradoParcial()">
+          <input type="button" value="C" class="large" onclick="borradoTotal()">
+        </p>
+        <p>
+          <input type="button" value="7" onclick="numero('7')">
+          <input type="button" value="8" onclick="numero('8')">
+          <input type="button" value="9" onclick="numero('9')">
+          <input type="button" value="/" onclick="numero('/')">
+          <input type="button" value="Raíz" onclick="raizc ()">
+        </p>
+        <p>
+          <input type="button" value="4" onclick="numero('4')">
+          <input type="button" value="5" onclick="numero('5')">
+          <input type="button" value="6"onclick="numero('6')">
+          <input type="button" value="*"onclick="operar('*')">
+          <input type="button" value="%" onclick="porcent ()">
+        </p>
+        <p>
+          <input type="button" value="3" onclick="numero('3')">
+          <input type="button" value="2" onclick="numero('3')">
+          <input type="button" value="1" onclick="numero('1')">
+          <input type="button" value="-" onclick="numero('7')">
+          <input type="button" value="1/x" onclick="inve ()">
+        </p>
+        <p>
+          <input type="button" value="0" onclick="numero('0')">
+          <input type="button" value="+/-" onclick="opuest()">
+          <input type="button" value="." onclick="numero('.')">
+          <input type="button" value="+" onclick="operar('+')">
+          <input type="button" value="=" class="equal" onclick="igualar()">
+        </p>
+      </form>
+    </div>
+    <script type="text/javascript" src="calculadora.js"></script>
+  </body>
+</html>
